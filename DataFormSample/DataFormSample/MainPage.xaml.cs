@@ -11,7 +11,7 @@ namespace DataFormSample
             InitializeComponent();
         }
 
-        private void SfDataForm_GenerateDataFormItem(object sender, GenerateDataFormItemEventArgs e)
+        private void SfDataForm_GenerateDataFormItem(object? sender, GenerateDataFormItemEventArgs e)
         {
             if (e.DataFormItem != null)
             {

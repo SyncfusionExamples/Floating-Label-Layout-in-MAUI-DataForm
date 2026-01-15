@@ -9,7 +9,9 @@
         <local:ViewModel/>
     </ContentPage.BindingContext>
 
-    <dataForm:SfDataForm DataObject="{Binding Info}"
+    <dataForm:SfDataForm 
+        x:DataType="local:ViewModel"
+        DataObject="{Binding Info}"
                          LayoutType="TextInputLayout"
                          GenerateDataFormItem="SfDataForm_GenerateDataFormItem">
     </dataForm:SfDataForm>
